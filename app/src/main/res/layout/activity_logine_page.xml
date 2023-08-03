@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Logine_Page">
+
+    <ImageView
+        android:id="@+id/loginlogo"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/mini_whatsapp_logo" />
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/loginlogo"
+        android:layout_marginTop="60dp"
+        android:hint="Email Address"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edbackground"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/loginemail"
+        android:layout_marginTop="25dp"
+        android:hint="Password"
+        android:paddingLeft="10dp"
+        android:background="@drawable/edbackground"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/loginbutton"
+        android:layout_marginTop="120dp"
+        android:layout_below="@id/loginpassword"
+        android:background="@drawable/bbackground"
+        android:layout_centerHorizontal="true"
+        android:text="LOG IN"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:id="@+id/signupbutton"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/loginbutton"
+        android:background="@drawable/bbackground"
+        android:layout_centerHorizontal="true"
+        android:text="SIGN UP"
+        android:textSize="18dp"
+        android:textColor="@color/white"/>
+</RelativeLayout>

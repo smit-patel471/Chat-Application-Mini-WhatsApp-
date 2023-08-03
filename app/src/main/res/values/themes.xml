@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MiniWhatsApp" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/darkgreen</item>
+    </style>
+
+    <style name="Theme.MiniWhatsApp" parent="Base.Theme.MiniWhatsApp">
+    </style>
+
+</resources>
